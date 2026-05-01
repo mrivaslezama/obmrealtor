@@ -55,7 +55,7 @@ export default function App() {
             <img src={logo} alt="OBM Inmobiliaria" className="h-10 w-auto md:h-12" />
           </a>
           <nav className="hidden items-center gap-8 text-sm font-semibold text-slate-600 lg:flex">
-            <a href="#quienes-somos" className="transition hover:text-slate-900">Quiénes somos</a>
+            <a href="#quienes-somos" className="transition hover:text-slate-900">Equipo</a>
             <a href="#proyectos" className="transition hover:text-slate-900">Proyectos</a>
             <a href="#servicios" className="transition hover:text-slate-900">Servicios</a>
             <a href="#contacto" className="transition hover:text-slate-900">Contacto</a>
@@ -107,12 +107,13 @@ export default function App() {
               <img
                 src={omarPhoto}
                 alt="Omar Beltrán Moreno"
-                className="h-72 w-full rounded-2xl object-cover object-center md:h-80"
+                className="h-48 w-48 rounded-full object-cover object-center mx-auto"
+                //className="h-72 w-full rounded-2xl object-cover object-center md:h-80"
               />
               <div className="mt-5 flex items-center justify-between">
                 <div>
                   <h2 className="text-xl font-semibold">Omar Beltrán Moreno</h2>
-                  <p className="text-sm text-slate-300">Agente Inmobiliario</p>
+                  <p className="text-sm text-slate-300">CEO · Agente Inmobiliario</p>
                 </div>
                 <span className="rounded-full bg-amber-400/20 px-3 py-1 text-sm font-semibold text-amber-200">★★★★★</span>
               </div>
@@ -177,7 +178,7 @@ export default function App() {
         </section>
 
         <section id="servicios" className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-blue-700">Servicios</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-blue-700">Equipamiento</p>
           <h2 className="mt-2 text-3xl font-bold text-slate-900">Servicios que ofrecen nuestras parcelas</h2>
           <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
